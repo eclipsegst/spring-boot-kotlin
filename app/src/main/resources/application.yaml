@@ -1,2 +1,19 @@
 server:
   port: 8080
+
+spring:
+  profiles:
+    active: dev
+  output:
+    ansi:
+      # Enable Color-coded Output
+      # Reference: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.logging.console-output.color-coded
+      enabled: ALWAYS
+  jpa:
+    # https://stackoverflow.com/a/2536835
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect

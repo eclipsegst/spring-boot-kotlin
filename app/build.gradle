@@ -30,6 +30,10 @@ dependencies {
     // Kotlin
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+    // JPA support
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('org.postgresql:postgresql')
 }
 
 test {
