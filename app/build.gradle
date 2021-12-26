@@ -6,6 +6,7 @@ plugins {
     // Kotlin
     id 'org.jetbrains.kotlin.jvm' version '1.6.0'
     id "org.jetbrains.kotlin.plugin.spring" version "1.6.0"
+    id 'org.flywaydb.flyway' version '8.2.0'
 }
 
 group 'com.example'
