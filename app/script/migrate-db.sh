@@ -42,7 +42,7 @@ done
 # Set up
 : ${FLYWAY_CMD:=flyway}
 
-: ${JDBC_DATABASE_URL:=jdbc:postgresql://127.0.0.1:5432/mydb}
+: ${JDBC_DATABASE_URL:=jdbc:postgresql://127.0.0.1:5432/postgres}
 : ${JDBC_DATABASE_USERNAME:=postgres}
 : ${JDBC_DATABASE_PASSWORD:=password}
 
