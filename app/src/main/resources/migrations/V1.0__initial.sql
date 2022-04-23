@@ -60,5 +60,5 @@ CREATE TABLE IF NOT EXISTS authorities (
 );
 
 -- The encrypted password is `password`
-INSERT INTO users (id, username, password, enabled) VALUES (1, 'user', '{bcrypt}$2a$10$4Tn1OASRPeSl2mj/NgMjOOhqd81FEr3G5rb1gyWDmZw02W0Y96xCC', TRUE);
+INSERT INTO users (id, username, password, enabled) VALUES (1, 'user00', '{bcrypt}$2a$10$4Tn1OASRPeSl2mj/NgMjOOhqd81FEr3G5rb1gyWDmZw02W0Y96xCC', TRUE);
 INSERT INTO authorities (username, authority) VALUES ('user', 'ROLE_USER');
