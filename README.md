@@ -14,4 +14,3 @@ curl -X POST -v localhost:8080/auth/signup -H 'Content-type:application/json' -d
 ```
 curl -u client:secret -X POST localhost:8080/oauth/token\?grant_type=password\&username=user01\&password=password | jq .
 ```
-
